@@ -1,15 +1,11 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html,
 body {
   --black: hsl(240, 6%, 13%);
-  --gray: hsl(240, 9%, 80%);
+  --grey: hsl(240, 9%, 89%);
 
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -22,23 +18,25 @@ body {
 }
 
 main {
-  background: url("./asset/images/background.svg");
+  background: url(images/background.svg);
   width: 375px;
   height: 812px;
 }
 
 .container {
   max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  margin: auto;
-  text-align: center;
-  color: var(--gray);
+
+  color: var(--grey);
 }
 
 .avatar {
-  position: relative;
   width: 10rem;
   margin: 11.5rem auto 0;
+
+  position: relative;
 }
 
 .avatar span {
@@ -50,22 +48,26 @@ main {
 .avatar > img {
   width: 10rem;
   height: 11.5rem;
-
   object-fit: cover;
+
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
 h1 {
   font-size: 1.5rem;
+
   margin-top: 1.5rem;
 }
 
 a {
+  color: var(--grey);
   text-decoration: none;
-  color: var(--gray);
+
   margin-top: 0.25rem;
+
   display: flex;
   gap: 0.75rem;
+
   justify-content: center;
   align-items: center;
 }
@@ -76,8 +78,12 @@ p {
 
 ul {
   margin-top: 4rem;
+
   list-style: none;
+  padding: 0;
+
   display: flex;
-  justify-content: center;
   gap: 0.5rem;
+
+  justify-content: center;
 }

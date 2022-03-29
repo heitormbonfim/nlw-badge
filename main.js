@@ -1,9 +1,9 @@
 const LinksSocialMedia = {
-  github: "heitorthecoder",
+  github: "heitorthewizard",
   youtube: "channel/UCmPkr6zc2crlilUdLiaR1nA",
-  facebook: "heitorthecoder",
-  instagram: "heitorthecoder",
-  twitter: "heitorthecoder",
+  facebook: "heitorthewizard",
+  instagram: "heitorthewizard",
+  twitter: "heitorthewizard",
 };
 
 function changeSocialMediaLinks() {
